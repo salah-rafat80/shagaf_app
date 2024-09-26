@@ -3,7 +3,7 @@
 import 'package:flutter/material.dart';
 import 'package:flutter_screenutil/flutter_screenutil.dart';
 import 'package:shagaf__app/core/constant.dart';
-import 'package:shagaf__app/core/shared_widgets/shared_widget_onbording.dart';
+import 'package:shagaf__app/features/splash/widgets/shared_widget_onbording.dart';
 
 class Login_text extends StatelessWidget {
   const Login_text({super.key});

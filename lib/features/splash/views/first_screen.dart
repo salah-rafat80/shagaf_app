@@ -1,8 +1,6 @@
 import 'package:animated_splash_screen/animated_splash_screen.dart';
 import 'package:flutter/material.dart';
-import 'package:page_transition/page_transition.dart';
-
-import 'onbording_screens/onbording_screen.dart';
+import 'onbording_screen.dart';
 
 class FirstScreen extends StatelessWidget {
   const FirstScreen({super.key});
@@ -16,12 +14,11 @@ class FirstScreen extends StatelessWidget {
         width: double.infinity,
         child: Image.asset(
           'assets/images/splash_screen.jpg',
-
-          fit: BoxFit.cover, // تغطي الصورة كامل المساحة
+          fit: BoxFit.cover,
         ),
       ),
-      backgroundColor: Color(0xff146356),
-      nextScreen: OnBoarding(),
+      backgroundColor: const Color(0xff146356),
+      nextScreen: const OnBoarding(),
       splashTransition: SplashTransition.fadeTransition,
       duration: 5000,
     );
