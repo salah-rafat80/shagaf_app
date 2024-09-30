@@ -26,7 +26,7 @@ class Shagaf_App extends StatelessWidget {
             "signup": (context) => const SignupScreen(),
             "login": (context) => const LoginScreen(),
             "forgetpass": (context) => const ForgetPassScreen(),
-            "verify": (context) => VerificationScreen(),
+            "verify": (context) => const VerificationScreen(),
           },
           debugShowCheckedModeBanner: false,
           theme: ThemeData.dark()

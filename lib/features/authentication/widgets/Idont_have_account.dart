@@ -26,18 +26,15 @@ class IdontHaveAccount extends StatelessWidget {
           width: 5.w,
         ),
         InkWell(
-          onTap: () {},
-          child: InkWell(
-            onTap: () {
-              Navigator.pushNamed(context, "signup");
-            },
-            child: Text(
-              "Sign up",
-              style: TextStyle(
-                  fontSize: 15.sp,
-                  color: const Color(0xffF04C29),
-                  fontFamily: Comfortaa_font),
-            ),
+          onTap: () {
+            Navigator.pushNamed(context, "signup");
+          },
+          child: Text(
+            "Sign up",
+            style: TextStyle(
+                fontSize: 15.sp,
+                color: const Color(0xffF04C29),
+                fontFamily: Comfortaa_font),
           ),
         )
       ],
