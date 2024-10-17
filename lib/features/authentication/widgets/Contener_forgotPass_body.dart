@@ -1,9 +1,9 @@
 import 'package:flutter/material.dart';
 import 'package:flutter_screenutil/flutter_screenutil.dart';
 import 'package:shagaf__app/core/constant.dart';
-import 'package:shagaf__app/features/authentication/widgets/Input_phone.dart';
-import 'package:shagaf__app/features/authentication/widgets/button.dart';
-import 'package:shagaf__app/features/authentication/widgets/constant.dart';
+import 'package:shagaf__app/features/Authentication/widgets/Input_phone.dart';
+import 'package:shagaf__app/features/Authentication/widgets/button.dart';
+import 'package:shagaf__app/features/Authentication/widgets/constant.dart';
 
 class ContenerForgotpassBody extends StatelessWidget {
   const ContenerForgotpassBody({super.key});

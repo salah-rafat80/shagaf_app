@@ -1,7 +1,7 @@
 import 'package:flutter/material.dart';
 import 'package:flutter_screenutil/flutter_screenutil.dart';
-import 'package:shagaf__app/features/authentication/widgets/Contener_signup_input.dart';
-import 'package:shagaf__app/features/authentication/widgets/Logo_image_contener.dart';
+import 'package:shagaf__app/features/Authentication/widgets/Contener_signup_input.dart';
+import 'package:shagaf__app/features/Authentication/widgets/Logo_image_contener.dart';
 
 class SignupBody extends StatelessWidget {
   const SignupBody({super.key});

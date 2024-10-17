@@ -1,8 +1,8 @@
 import 'package:flutter/material.dart';
 import 'package:flutter_screenutil/flutter_screenutil.dart';
-import 'package:shagaf__app/features/authentication/widgets/constant.dart';
-import 'package:shagaf__app/features/authentication/widgets/verify_buttom.dart';
-import 'package:shagaf__app/features/authentication/widgets/verify_input.dart';
+import 'package:shagaf__app/features/Authentication/widgets/constant.dart';
+import 'package:shagaf__app/features/Authentication/widgets/verify_buttom.dart';
+import 'package:shagaf__app/features/Authentication/widgets/verify_input.dart';
 
 import '../../../core/constant.dart';
 

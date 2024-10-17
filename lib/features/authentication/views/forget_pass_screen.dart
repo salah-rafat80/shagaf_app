@@ -7,8 +7,8 @@
 //   - An `InputPhone` widget for the user to enter their phone number
 //   - A `Button` widget with the label "Reset Password" that navigates to the "verify" route
 import 'package:flutter/material.dart';
-import 'package:shagaf__app/features/authentication/widgets/Contener_forgotPass_body.dart';
-import 'package:shagaf__app/features/authentication/widgets/Logo_image_contener.dart';
+import 'package:shagaf__app/features/Authentication/widgets/Contener_forgotPass_body.dart';
+import 'package:shagaf__app/features/Authentication/widgets/Logo_image_contener.dart';
 
 class ForgetPassScreen extends StatelessWidget {
   const ForgetPassScreen({super.key});

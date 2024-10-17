@@ -1,6 +1,6 @@
 import 'package:flutter/material.dart';
-import 'package:shagaf__app/features/authentication/widgets/Container_LoginBody.dart';
-import 'package:shagaf__app/features/authentication/widgets/Logo_image_contener.dart';
+import 'package:shagaf__app/features/Authentication/widgets/Container_LoginBody.dart';
+import 'package:shagaf__app/features/Authentication/widgets/Logo_image_contener.dart';
 
 class LoginScreen extends StatelessWidget {
   const LoginScreen({super.key});

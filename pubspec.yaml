@@ -33,8 +33,10 @@ dependencies:
   easy_splash_screen: null
   flutter:
     sdk: flutter
+  flutter_custom_clippers: ^2.1.0
   flutter_onboarding_slider: null
   flutter_screenutil: null
+  like_button: ^2.0.5
   page_transition: null
   pin_code_fields: null
   quickalert: null

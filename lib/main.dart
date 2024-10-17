@@ -1,9 +1,11 @@
 import 'package:flutter/material.dart';
 import 'package:flutter_screenutil/flutter_screenutil.dart';
-import 'package:shagaf__app/features/authentication/views/Login_Screen.dart';
-import 'package:shagaf__app/features/authentication/views/Signup_Screen.dart';
-import 'package:shagaf__app/features/authentication/views/forget_pass_screen.dart';
-import 'package:shagaf__app/features/authentication/views/verify_screen.dart';
+import 'package:shagaf__app/features/Authentication/views/Login_Screen.dart';
+import 'package:shagaf__app/features/Authentication/views/Signup_Screen.dart';
+import 'package:shagaf__app/features/Authentication/views/forget_pass_screen.dart';
+import 'package:shagaf__app/features/Authentication/views/verify_screen.dart';
+import 'package:shagaf__app/features/Home/Views/Home_screen.dart';
+import 'package:shagaf__app/features/Rooms/Views/Rooms_Screen.dart';
 import 'package:shagaf__app/features/splash/views/first_screen.dart';
 
 void main() {
@@ -27,6 +29,8 @@ class Shagaf_App extends StatelessWidget {
             "login": (context) => const LoginScreen(),
             "forgetpass": (context) => const ForgetPassScreen(),
             "verify": (context) => const VerificationScreen(),
+            "Home": (context) => const HomeScreen(),
+            "room": (context) => RoomsScreen(),
           },
           debugShowCheckedModeBanner: false,
           theme: ThemeData.dark()
