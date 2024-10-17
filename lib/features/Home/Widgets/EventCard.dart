@@ -37,7 +37,14 @@ class EventCard extends StatelessWidget {
           Column(
             crossAxisAlignment: CrossAxisAlignment.start,
             children: [
-              Titel_event_text,
+              Text(
+                'Ceramics workshop',
+                style: TextStyle(
+                  color: Colors.white,
+                  fontSize: 16.sp,
+                  fontWeight: FontWeight.w400,
+                ),
+              ),
               Row(
                 children: [
                   Column(
@@ -60,7 +67,13 @@ class EventCard extends StatelessWidget {
                       crossAxisAlignment: CrossAxisAlignment.start,
                       children: [
                         SizedBox(height: 4.h),
-                        day_date_text,
+                        Text(
+                          'on Friday 28 July',
+                          style: TextStyle(
+                            color: Colors.white,
+                            fontSize: 12.sp,
+                          ),
+                        ),
                         SizedBox(height: 4.h),
                         Date_text,
                         SizedBox(height: 8.h),
@@ -68,7 +81,18 @@ class EventCard extends StatelessWidget {
                         SizedBox(height: 8.h),
                         Row(
                           mainAxisAlignment: MainAxisAlignment.spaceBetween,
-                          children: [SizedBox(width: 100.w), Details_text],
+                          children: [
+                            SizedBox(
+                              width: 100.w,
+                            ),
+                            Text(
+                              "See Details",
+                              style: TextStyle(
+                                  color: const Color(0xffF04C29),
+                                  fontSize: 8.sp,
+                                  fontWeight: FontWeight.w400),
+                            ),
+                          ],
                         )
                       ],
                     ),
